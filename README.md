@@ -20,7 +20,7 @@ These include;
 
 ## Prerequisites
 
-1. [Go](https://golang.org)
+1. [Go](https://golang.org) installed following the [official](http://golang.org/doc/install) instructions (including exporting GOPATH and GOROOT).
 2. [Gotags](https://github.com/jstemmer/gotags)
 
 
