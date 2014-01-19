@@ -6,7 +6,7 @@ for my Go development, based on [Martin Angers @PuerkitoBio's blog](http://0valu
 These include;
 
 1. [Tpope's amazing pathogen](https://github.com/tpope/vim-pathogen)
-2. The Go Vim tools which come with the installation
+2. The Go Vim tools which come with your Go installation
 3. [Nsf's gocode](https://github.com/nsf/gocode) Go completion tool
 4. [Townk's vim-autoclose](https://github.com/Townk/vim-autoclose) for closing pair symbols (){},etc
 5. [scrooloose's NerdTree](https://github.com/scrooloose/nerdtree) tree explorer
@@ -41,11 +41,13 @@ of course this can be changed in the script :).
 Before uninstalling please make sure to backup any new things you've added to the .vim/autoload and .vim/bundle directory. These instructions assume you kept your backups from the installation (.vimrc.old and .vim).
 
 To uninstall just do the following, 
+
 1. `rm -v ~/.vim/autoload/pathogen.vim`
 2. `rm -rfv ~/.vim/bundle`
 3. `rm -v ~/.vimrc && mv ~/.vimrc.old ~/.vimrc`
 
 optionally
+
 4. `rm -rfv ~/.vim && mv ~/.vim.old ~/.vim`
 5. Remove all cloned plugin code in /PATH/TO/REPOS
 
