@@ -16,7 +16,7 @@ These include;
 9. [Tpope's vim-sensible](https://github.com/tpope/vim-sensible) acceptable defaults for vim
 10. [Altercation's vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) colorscheme.
 
-**NOTE:** The install script backsup your vimrc and .vim directories to ~/.vim.old and ~/.vimrc.old.
+**NOTE:** The install script backs up your vimrc and .vim directories to ~/.vim.old and ~/.vimrc.old.
 
 ## Prerequisites
 
@@ -26,12 +26,13 @@ These include;
 
 ## Installation
 
-0. `mkdir PATH/TO/REPOS/github.com/ttousai && cd PATH/TO/REPOS/github.com/ttousai`
+The /PATH/TO/REPOS argument specifies where the various plugin sources wiil be cloned to and must be an absolute PATH.
+
+0. `mkdir /PATH/TO/REPOS/github.com/ttousai && cd /PATH/TO/REPOS/github.com/ttousai`
 1. `git clone git://github.com/ttousai/vim-config`
 2. `cd vim-config`
 3. `./install.sh /PATH/TO/REPOS`
 
-The /PATH/TO/REPOS argument specifies where the various plugin sources wiil be cloned to and must be an absolute PATH.
 
 **NOTE**: Step is critical, the install script requires the github.com/ttousai part,
 of course this can be changed in the script :).
