@@ -85,6 +85,7 @@ plugins=(\
 		'scrooloose/nerdtree' 'ervandew/supertab'\
 		'majutsushi/tagbar'  'Townk/vim-autoclose'\
 		'tpope/vim-sensible' 'altercation/vim-colors-solarized'\
+		'scrooloose/syntastic'\
 )
 
 for p in ${plugins[@]}; do

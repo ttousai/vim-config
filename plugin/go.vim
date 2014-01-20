@@ -10,7 +10,7 @@ syntax on
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
 
 "Gotags and Tagbar configs
-au BufWritePost *.go silent! !gotags * > tags &
+au BufWritePost *.go silent! !gotags * > tags 2> /dev/null &
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
