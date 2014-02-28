@@ -4,10 +4,10 @@
 let g:SuperTabDefaultCompletionType = "context"
 
 " Default colorscheme solarized
-set background=dark
-set t_Co=16
-let g:solarized_termcolors=16
-colorscheme solarized
+"set background=dark
+"set t_Co=16
+"let g:solarized_termcolors=16
+"colorscheme solarized
 
 " Allow use of the mouse in all mode
 set mouse=a

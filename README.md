@@ -15,6 +15,7 @@ These include;
 8. [Ervandew's SuperTab](https://github.com/ervandew/supertab) for tab completion
 9. [Tpope's vim-sensible](https://github.com/tpope/vim-sensible) acceptable defaults for vim
 10. [Altercation's vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) colorscheme.
+11l [Nico Raffo's Conque](http://code.google.com/p/conque/) run interactive commands inside vim buffer.
 
 **NOTE:** The install script backs up your vimrc and .vim directories to ~/.vim.old and ~/.vimrc.old.
 

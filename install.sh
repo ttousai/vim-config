@@ -99,6 +99,12 @@ for p in ${plugins[@]}; do
 		rm -rf $TOOL
 done
 
+# install Conque for vim in-band shell
+PLUGIN="code.google.com/p/conque"
+TOOL="conque"
+svn checkout http://conque.googlecode.com/svn/trunk/ $TOOL
+ln -sv $REPOS/$PLUGIN $VIMHOME/bundle/$TOOL
+
 # install vimrc, and templates.
 # support for templating is in vim-config/plugin/default.vim
 cp -av templates ${HOME}/.vim
