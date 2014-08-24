@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 
-#Copyright 2013, <+AUTHOR+>
+#Copyright <+YEAR+>, <+AUTHOR+>
+#<+LICENSE+>
 
 use warnings;
 use strict;

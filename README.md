@@ -57,7 +57,7 @@ optionally
 ## Personalization
 
 I have separated all my personal configuration into the file plugin/default.vim and
-plugin/keybindings.vim.
+plugin/keybindings.vim. These includes keybindings and templates for golang and perl.
 
 Also the file plugin/go.vim, contains configurations specific to go
 

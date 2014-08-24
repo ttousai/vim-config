@@ -1,4 +1,5 @@
-// Copyright 2013, <+AUTHOR+>
+// Copyright <+YEAR+>, <+AUTHOR+>. All rights reserved.
+// <+LICENSE+>
 
 package <+PKG+> 
 
