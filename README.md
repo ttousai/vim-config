@@ -35,7 +35,7 @@ The /PATH/TO/REPOS argument specifies where the various plugin sources wiil be c
 3. `./install.sh /PATH/TO/REPOS`
 
 
-**NOTE**: Step is critical, the install script requires the github.com/ttousai part,
+**NOTE**: Step 1 is critical, the install script requires the github.com/ttousai part,
 of course this can be changed in the script :).
 
 ## Uninstall
